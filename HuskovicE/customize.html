@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Onei - beauty salon</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="./styles/nav.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+  <link rel="stylesheet" href="./styles/customize.css">
+  <link rel="stylesheet" href="./styles/form.css">
+  <script type="module" src="./js/App.js"></script>
+  <script type="module" src="./js/controller/Validation.js"></script>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <div class="pos-f-t">
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+        <h1 class="text-white">Welcome to Onei</h1>
+        <d iv class="nav">
+          <div class="bar">
+            <a href="index.html">HOME PAGE</a>
+            <a href="index.html">NAILS</a>
+            <a href="index.html">SPA</a>
+            <a href="index.html">HAIR</a>
+            <a href="index.html">MAKEUP</a>
+            <a href="customize.html">CUSTOMIZE NAIL</a>
+          </div>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+      aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+  </div>
+
+
+
+
+
+  <h2>Customize nail by <span>Victoria Beckham</span></h2>
+
+  <div id="selects">
+
+    <select id="base">
+    </select><select id="collection"></select>
+    <select id="color"></select>
+
+  </div>
+
+
+
+
+
+  <div class="submit-nail">
+    <a href="#form">
+      <button type="submit" id="submit"> Save </button>
+      <button type="submit">Continue to Form</button>
+    </a>
+
+    <a href="index.html">
+      <button type="submit">Back</button>
+    </a>
+  </div>
+
+
+  <div class="imgWrapper">
+    <img id="baseImg" src="images/startNail.png" alt="">
+  </div>
+
+
+
+  <div class="container">
+    <div class="header">
+      <h2> order your nail
+      </h2>
+    </div>
+
+    <form class="form" id="form">
+      <div class="form-control">
+        <label>Selected Nail: </label>
+        <input disabled type="text" placeholder="Nail" id="result">
+      </div>
+
+      <div class="form-control">
+        <label>First Name</label>
+        <input type="text" placeholder="Ella" id="firstName">
+        <i class="fa fa-check-circle"></i>
+        <i class="fa fa-exclamation-circle"></i>
+        <small>Error message</small>
+      </div>
+
+      <div class="form-control">
+        <label>Last Name</label>
+        <input type="text" placeholder="Huskovic" id="lastName">
+        <i class="fa fa-check-circle"></i>
+        <i class="fa fa-exclamation-circle"></i>
+        <small>Error message</small>
+      </div>
+
+      <div class="form-control">
+        <label>Email</label>
+        <input type="email" placeholder="onei@gmail.com" id="email">
+        <i class="fa fa-check-circle"></i>
+        <i class="fa fa-exclamation-circle"></i>
+        <small>Error message</small>
+      </div>
+
+      <button type="submit" id="formSubmit"> Submit </button>
+
+    </form>
+  </div>
+
+  <div class="footer">
+    <div class="footer-icons">
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-facebook-square"></i>
+    </div>
+
+    <div class="footer-contact">
+      <i class="fa fa-envelope"> onei@gmail.com |</i>
+      <i class="fa fa-phone"> +385 99 7788 563 | </i>
+      <i class="fa fa-envelope"> Strojarska 50A </i>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

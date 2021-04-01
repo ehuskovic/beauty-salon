@@ -1,0 +1,117 @@
+/**
+** These are variables that are commonly used throught the code 
+**/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #343A41 !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h2 {
+  text-align: center;
+  color: lightgray;
+}
+
+.container {
+  background-color: #343A41;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  width: 400px;
+  max-width: 100%;
+  min-height: 60vh;
+}
+
+.container .header {
+  background-color: #343A41;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 20px 40px;
+}
+
+.container .header h2 {
+  text-align: center;
+}
+
+.container .form {
+  padding: 40px 40px;
+}
+
+.container .form .form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  display: inline-table;
+}
+
+.container .form .form-control label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.container .form .form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+}
+
+.container .form .form-control i {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  visibility: hidden;
+}
+
+.container .form .form-control small {
+  position: absolute;
+  padding-left: 10px;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.container .form button {
+  background-color: #e60d31;
+  border: 2px solid #e60d31;
+  color: white;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.container .form button:hover {
+  border: 2px solid lightgray;
+}
+
+.container .form .form-control.success input {
+  border-color: green;
+}
+
+.container .form .form-control.error input {
+  border-color: #e60d31;
+}
+
+.container .form .form-control.success i.fa-check-circle {
+  visibility: visible;
+  color: green;
+}
+
+.container .form .form-control.error i.fa-exclamation-circle {
+  visibility: visible;
+  color: #e60d31;
+}
+
+.container .form .form-control.error small {
+  visibility: visible;
+  color: #e60d31;
+}
+/*# sourceMappingURL=form.css.map */

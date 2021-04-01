@@ -1,0 +1,22 @@
+@import './variables'; 
+
+.icons {
+
+    img {
+        padding: 5%;
+
+        &:hover {
+            transform: scale(1.25);
+            transition: 1s;
+        }
+    }
+
+    .text {
+        text-align: center;
+        font-family: $font;
+        font-size: $fSize;
+        text-transform: uppercase;
+        color: $blue;
+    }
+        
+}

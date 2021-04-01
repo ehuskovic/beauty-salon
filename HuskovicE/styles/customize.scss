@@ -1,0 +1,94 @@
+@import './variables'; 
+
+@mixin positions {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-top: 1%; 
+}
+
+@mixin styleMe($backgroundColor, $fontFamily, $color) {
+    background-color: $backgroundColor;
+    font-family: $fontFamily;
+    color: $color;
+}
+
+body {
+    background-color: $dark !important;
+}
+
+h2 {
+    text-align: center;
+
+    @include styleMe($dark, $specialFont, $lightgray); 
+
+    span {
+
+        @include styleMe(inherit, $specialFont, $h2Color); 
+        font-size: 35px;   
+    }
+
+}
+
+#selects {
+
+    @include styleMe($dark, $font, inherit); 
+
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;;
+
+    select {
+
+        @include styleMe($dark, $font, $lightgray);
+        
+        width: 30rem;
+        height: 3rem;
+        display: block;
+        margin: 0 auto;
+
+        &:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+
+      
+    }
+}
+
+#button {
+    button {
+       @include positions(); 
+    }
+}
+
+.imgWrapper {
+    img {
+        @include positions(); 
+        width: 30%;
+        
+    }
+}
+
+
+.submit-nail {
+    button {
+        @include positions(); 
+        @include styleMe($h2Color, $font, $white); 
+      
+        border: 2px solid $h2Color;
+        width: 24%;
+        padding: 10px;
+        border-radius: 4px;
+
+        &:hover {
+            border: 2px solid $lightgray;
+
+        }
+
+    }
+}
+
+
+

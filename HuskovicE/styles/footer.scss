@@ -1,0 +1,27 @@
+@import './variables'; 
+@import './style.scss'; 
+
+@mixin iconStyle($iconSize, $iconColor) {
+    text-align: center;
+    font-size: $iconSize;
+    color: $iconColor;
+}
+
+.footer {
+
+    background-color: $dark;
+    @include whiteSpace(); 
+
+    .footer-icons {
+
+        @include iconStyle($iconBig, $blue); 
+        padding: 1%;
+ 
+    }
+
+    .footer-contact {
+        @include iconStyle($iconSmall, $blue); 
+        
+    }
+    
+}

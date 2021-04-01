@@ -1,0 +1,116 @@
+@import './variables'; 
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $dark !important;
+    align-items: center;
+ 
+}
+
+h2 {
+    text-align: center;
+    color: lightgray;
+}
+
+.container {
+    background-color: $dark;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    max-width: 100%;
+    min-height: 60vh;
+
+    .header {
+        background-color: $dark;
+        border-bottom: 1px solid #f0f0f0;
+        padding: 20px 40px;
+        h2 {
+            text-align: center;
+
+        }
+    }
+
+    .form {
+        padding: 40px 40px;
+        
+        
+
+        .form-control {
+            margin-bottom: 10px;
+            padding-bottom: 20px;
+            position: relative;
+            display: inline-table;
+
+            label {
+                display: block;
+                margin-bottom: 5px; 
+            }
+
+            input {
+                border: 2px solid #f0f0f0;
+                border-radius: 4px;
+                display: block;
+                font-size: 14px;
+                padding: 10px;
+                width: 100%;
+            }
+
+            i {
+                position: absolute;
+                top: 50px;
+                right: 20px;
+                visibility: hidden;
+            }
+
+            small {
+                position: absolute;
+                padding-left: 10px; 
+                bottom: 0;
+                left: 0;
+                visibility: hidden;
+            }
+        }
+
+        button {
+            background-color: $h2Color;
+            border: 2px solid $h2Color;
+            color: white;
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border-radius: 4px;
+
+            &:hover {
+                border: 2px solid lightgray;
+    
+            }
+        }
+
+        .form-control.success input {
+            border-color: green;
+        }
+
+        .form-control.error input {
+            border-color: $h2Color;
+        }
+
+        .form-control.success i.fa-check-circle {
+            visibility: visible;
+            color: green;
+        }
+
+        .form-control.error i.fa-exclamation-circle {
+            visibility: visible;
+            color: $h2Color;
+        }
+
+        .form-control.error small {
+            visibility: visible;
+            color: $h2Color;
+        }
+    }
+}
+

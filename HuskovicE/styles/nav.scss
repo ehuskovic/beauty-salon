@@ -1,0 +1,25 @@
+@import './variables'; 
+
+
+.nav {
+    a {
+        color: $black;
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        font-size: $fSize;
+        font-family: $font; 
+
+        &:hover {
+            text-decoration: none;
+            font-size: $fSizeHover; 
+            font-weight: bold;
+            color: $black;
+        }
+       }
+}
+
+
+h1 {
+ font-family: $specialFont; 
+}

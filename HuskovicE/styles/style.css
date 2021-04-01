@@ -1,0 +1,226 @@
+/**
+** These are variables that are commonly used throught the code 
+**/
+.parallax {
+  background-image: url("../images/cover7.jpg");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax .head-text {
+  color: #e60d31;
+  font-size: 100px;
+  font-family: "Dancing Script", cursive;
+}
+
+.parallax .small-text {
+  color: white;
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+}
+
+.icons img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services {
+  margin-left: 1%;
+  margin-right: 1%;
+  min-height: 40rem;
+}
+
+.services .nails {
+  height: 500px;
+  background-color: #343A41;
+}
+
+.services .nails .services-text {
+  padding: 4%;
+}
+
+.services .nails .services-text h2 {
+  color: #BAC6CC;
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+}
+
+.services .nails .services-text p {
+  color: #bbbbbb;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+.services .nails .services-text .button {
+  background-color: #BAC6CC;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: #343A41;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.services .nails .services-text .button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.services .spa {
+  height: 500px;
+  background-color: #BAC6CC;
+}
+
+.services .spa .services-text {
+  padding: 4%;
+}
+
+.services .spa .services-text h2 {
+  color: #343A41;
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+}
+
+.services .spa .services-text p {
+  color: #343A41;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+.services .spa .services-text .button {
+  background-color: #BAC6CC;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: #343A41;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.services .spa .services-text .button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.services .hair {
+  height: 500px;
+  background-color: #343A41;
+}
+
+.services .hair .services-text {
+  padding: 4%;
+}
+
+.services .hair .services-text h2 {
+  color: #BAC6CC;
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+}
+
+.services .hair .services-text p {
+  color: #bbbbbb;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+.services .hair .services-text .button {
+  background-color: #BAC6CC;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: #343A41;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.services .hair .services-text .button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.services .makeup {
+  height: 500px;
+  background-color: #BAC6CC;
+}
+
+.services .makeup .services-text {
+  padding: 4%;
+}
+
+.services .makeup .services-text h2 {
+  color: #343A41;
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+}
+
+.services .makeup .services-text p {
+  color: #343A41;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+.services .makeup .services-text .button {
+  background-color: #BAC6CC;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: #343A41;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.services .makeup .services-text .button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.services .services-img img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 400px;
+  margin-top: 5%;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.services .services-img img:hover {
+  -webkit-filter: none;
+          filter: none;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+span {
+  color: #e60d31;
+  font-size: 25px;
+  font-family: "Dancing Script", cursive;
+}
+/*# sourceMappingURL=style.css.map */

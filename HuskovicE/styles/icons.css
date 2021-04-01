@@ -1,0 +1,22 @@
+/**
+** These are variables that are commonly used throught the code 
+**/
+.icons img {
+  padding: 5%;
+}
+
+.icons img:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.icons .text {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 125%;
+  text-transform: uppercase;
+  color: #BAC6CC;
+}
+/*# sourceMappingURL=icons.css.map */

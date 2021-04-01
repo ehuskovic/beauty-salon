@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA;;GAEG;ADAH,AAEI,MAFE,CAEF,GAAG,CAAC;EACA,OAAO,EAAE,EAAE;CAMd;;AATL,AAKQ,MALF,CAEF,GAAG,AAGE,MAAM,CAAC;EACJ,SAAS,EAAE,WAAW;EACtB,UAAU,EAAE,EAAE;CACjB;;AART,AAWI,MAXE,CAWF,KAAK,CAAC;EACF,UAAU,EAAE,MAAM;EAClB,WAAW,ECPX,KAAK,EAAE,SAAS,EAAE,UAAU;EDQ5B,SAAS,ECPR,IAAI;EDQL,cAAc,EAAE,SAAS;EACzB,KAAK,ECZL,OAAO;CDaV",
+    "sources": [
+        "icons.scss",
+        "_variables.scss"
+    ],
+    "names": [],
+    "file": "icons.css"
+}
